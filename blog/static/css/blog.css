@@ -44,10 +44,12 @@ h1, h2, h3, h4 {
     color: #000000;
 }
 
-.col-md-8 {
-    width: 100%;
-}
+
 .btn-default {
     float: right;
     margin-right: 10px;
+}
+
+.row {
+    display: inline;
 }
