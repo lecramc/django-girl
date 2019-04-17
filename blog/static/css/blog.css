@@ -44,12 +44,12 @@ h1, h2, h3, h4 {
     color: #000000;
 }
 
-
-.btn-default {
-    float: right;
-    margin-right: 10px;
+.row {  
+    display: inline;
 }
 
-.row {
-    display: inline;
+.btn-edit a {
+    float: right;
+    border-color: chocolate;
+    margin-right: 10px;
 }
