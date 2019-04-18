@@ -14,7 +14,9 @@
 
     <div class="page-header">
         {% if user.is_authenticated %}
-        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        <a href="{% url 'post_new' %}" class="top-menu">
+            <ion-icon name="add"></ion-icon></span>
+        </a>
         {% endif %}
         <h1><a href="/">First tutorial with Django</a></h1>
     </div>
